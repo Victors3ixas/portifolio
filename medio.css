@@ -57,39 +57,56 @@ header ul li a:hover {
 Main Section
 */
 
-.height_main_section {
-    display: flex;
-    flex-direction: column;
+.height_main_section,
+.btn_section,
+.main_section {
+    height: 75vh;
 }
 
-.main_section {
-    padding: 50px 75px;
+    .main_section {
+        padding: 50px 75px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #main_section-img {
+        width: 50vh;
+    }
+
+
+.sobre {
+    padding: 30px 75px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
-#main_section-img {
-    width: 30vw;
-}
+    .info_img {
+        height: 20vw;
+    }
 
-.btn_section {
-    margin: 5px;
+.projects {
+    padding: 30px 0px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.btn_section a {
-    padding: 5px;
-    color: white;
-}
+    .project_card {
+        height: 175px;
+    }
 
-.btn_section a:hover {
-    color: white;
-    border-radius: 5px;
-    padding: 3.5px;
-    border: solid;
-    border-width: 1.5px;
-    border-color: rgba(255, 255, 255, 0.6);
-}
+    .div-project_card {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 20px 0px;
+    }
+
+    .projects div button {
+        width: 47.5%;
+    }
+    
