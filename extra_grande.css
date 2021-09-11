@@ -73,7 +73,8 @@ Main Section
     }
 
     #main_section-img {
-        width: 50vh;
+        height: calc(75vh - 100px);
+        max-height: calc((100vw - 150px) / 2);
     }
 
 
@@ -98,7 +99,7 @@ Main Section
     text-align: center;
 }
     .project_card {
-        height: 150px;
+        height: calc((100vw / 4) * 0.5625);
     }
 
     .div-project_card {
@@ -109,5 +110,5 @@ Main Section
     }
 
     .projects div button {
-        width: 22.5%;
+        width: calc(100vw / 4);
     }

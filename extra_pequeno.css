@@ -90,7 +90,7 @@ Main Section
     }
     
         .project_card {
-            height: 45vw;
+            height: calc((100vw - 10px) * 0.5625);
         }
     
         .div-project_card {
@@ -102,6 +102,6 @@ Main Section
         }
     
         .projects div button {
-            width: 90vw;
+            width: calc(100% - 10px);
         }
         
