@@ -36,8 +36,8 @@ function dark_theme() {
     let github_light = document.getElementById('github_img-light-theme').style;
     let github_dark = document.getElementById('github_img-dark-theme').style;
         
-        github_dark.display = 'none';
-        github_light.display = "inline";
+        github_dark.display = 'inline';
+        github_light.display = "none";
 
     document.body.style.setProperty('--background_theme', '#252323');
     document.body.style.setProperty('--text-color_theme', '#fff');
