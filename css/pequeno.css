@@ -39,7 +39,7 @@ header {
 
 .main_section {
     width: 100%;
-    height: calc(100vh - 5px);
+    height: calc(100vh - 50px);
     padding: 0px 25px;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ header {
 
     .main_section span {
         width: calc(100vw - 50px);
-        top: calc(100vh  - 50px);
+        bottom: 0;
     }
 
     .main_section-divisor {
