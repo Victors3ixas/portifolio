@@ -1,0 +1,88 @@
+.projects-card {
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    transition: 0.5s;
+    color: #fff;
+}   
+
+.projects-card:hover {
+    opacity: 1;
+}
+
+.projects-card div {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: none;
+    transition: 1s;
+}  
+
+.projects-card:hover div {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-card img {
+    width: max-content;
+    height: 35px;
+    padding: 5px;
+    padding-left: 0;
+}
+
+.projects-card  a {
+    padding: 0px 7.5px;
+    font-weight: 500;
+    color: #4973ff;
+    opacity: 1;
+    transition: 0.25s;
+}
+
+.projects-card:nth-child(2) a,
+.projects-card:nth-child(4) a {
+    color: #08D089;
+}   
+
+.projects-card a:hover {
+    opacity: 0.75;
+}
+
+
+
+/*----------------------------------------------
+    OTHER CONTROLS
+----------------------------------------------*/
+
+.projects-card:nth-child(1) div {
+    align-items: flex-end;
+    background: linear-gradient(to top right, rgba(0,0,0,0.6), transparent);;
+}
+.projects-card:nth-child(2) div {
+    justify-content: flex-end;
+    background: linear-gradient(to bottom left, rgba(0,0,0,0.6), transparent);
+}
+.projects-card:nth-child(3) div {
+    background: linear-gradient(to top left, rgba(0,0,0,0.6), transparent);
+}
+.projects-card:nth-child(4) div {
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(to bottom right, rgba(0,0,0,0.6), transparent);
+}
+
+/*----------------------------------------------
+    IMAGES
+----------------------------------------------*/
+
+.projects-card:nth-child(1) {
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/022/343/368/large/victor-seixas-casa.jpg?1575063733');
+}
+.projects-card:nth-child(2) {
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/022/298/262/large/victor-seixas-globo-remaster-pt1.jpg?1574880982');
+}
+.projects-card:nth-child(3) {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/022/246/281/large/victor-seixas-render-quarto-pt-1.jpg?1574689570');
+}
+.projects-card:nth-child(4) {
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/022/343/440/large/victor-seixas-quarto-2-remaster-pt1.jpg?1575063952');
+}
