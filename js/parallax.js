@@ -14,8 +14,7 @@ window.addEventListener('scroll', function() {
     wave3.height = ((waveY * 0.2)+ 325) + 'vh';
 
     let btnY = window.pageYOffset;
-
-    console.log(btnY);
+    
     scroll_btn.pointerEvents = btnY < 500 ? "none" : "auto";
     scroll_btn.opacity = btnY < 500 ? "0" : "0.75";
 })
