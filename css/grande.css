@@ -26,10 +26,9 @@ header {
 }
 
 
-.scroll_btn {
-    height: 100px;
-    width: 100px;
-    position: fixed;
+#scroll_btn {
+    bottom: 50px;
+    right: 25px;
 }
 
 /*----------------------------------------------

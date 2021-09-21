@@ -14,11 +14,11 @@
     padding: 5px;
 }
 
-.scroll_btn {
-    height: 50px;
-    width: 50px;
-    position: fixed;
+#scroll_btn {
+    bottom: 5px;
+    right: 5px;
 }
+
 
 /*----------------------------------------------
     MAIN

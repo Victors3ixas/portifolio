@@ -29,10 +29,9 @@ header {
     padding: 10px;
 }
 
-.scroll_btn {
-    height: 50px;
-    width: 50px;
-    position: fixed;
+#scroll_btn {
+    bottom: 50px;
+    right: 5px;
 }
 
 /*----------------------------------------------

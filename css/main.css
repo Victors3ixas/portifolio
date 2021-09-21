@@ -164,30 +164,21 @@ section a:hover {
     filter: drop-shadow(0px 0px 40px #ffffff)
 }
 
-
-.scroll_btn {
+#scroll_btn {
     position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 0px;
-    right: 0px;
-}
-
-.scroll_btn a {
     border-radius: 50%;
-    padding: 5px;
-    background: transparent;
+    color: #fff;
+    padding: 10px;
+    background: #25232350;
     transition: 0.5s;
     pointer-events: none;
     opacity: 0;
+    z-index: 1000;
 }
 
-.scroll_btn a:hover {
-    background: #25232315;
-    color: #252323;
+#scroll_btn:hover {
     box-shadow: none;
-    opacity: 1;
+    background-color: #25232380;
 }
 
 /*----------------------------------------------
