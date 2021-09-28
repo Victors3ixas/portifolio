@@ -1,0 +1,33 @@
+.small_layout,
+#SECTION_rede-icons {
+    display: none;
+}
+
+header {
+    padding: 15px 50px;
+}
+
+
+main aside {
+    padding: 30px 75px;
+}
+
+main aside:nth-child(2) div:nth-child(3) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main aside:nth-child(2) img {
+    max-width: 25vw;
+}
+
+.project-card_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project_card {
+    width: 40vw;
+    height: 40vw;
+}
