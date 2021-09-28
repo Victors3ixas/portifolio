@@ -1,0 +1,107 @@
+@import url(https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .content a {
+    text-decoration: none;
+    padding: 10px;
+    color: #252323;
+    background: linear-gradient(to left top, #4973FF, #08D089);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+section .content a:hover {
+    color: #fff;
+    box-shadow: 
+    0px 0px 40px #08D089,
+    0px 0px 80px  #4693ff,
+    0px 0px 120px #08D089;
+}
+
+
+section #SECTION_rede-icons {
+    position: absolute;
+}
+
+section #SECTION_rede-icons li {
+    margin-bottom: 10px;
+}
+
+section #SECTION_rede-icons a {
+    color: #ffffff;
+    transition: 0.5s;
+}
+section #SECTION_rede-icons a:hover{
+    color: #ffffff75;
+}
+
+.plataforms_section {
+    border-left: 5px solid #08D089;
+}
+
+
+.skills-icons_sections {
+    margin: 5px 0px 5px 10px;
+    padding: 0;
+}
+
+
+.project_card {
+    opacity: 0.75;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.project_card:hover {
+    opacity: 1;
+}
+
+.project_card:nth-child(1) {
+    background-position: center;
+    background-image: url('https://store-images.s-microsoft.com/image/apps.12902.13510798887905001.5b97746c-8ffa-4764-b336-d48b70f8b290.f648a205-dbc5-48b8-9dd8-1201cb692c1f?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg');
+}
+
+.project_card:nth-child(2) {
+    background-image: url('https://coolwallpapers.me/picsup/3058990-book_computer_design_development_electronics_html_keyboard_laptop_macbook_notebook_pencil_technology_web_web-design_website.jpg');
+}
+
+.project_card a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: 1s;
+}
+
+.project_card a:hover {
+    background: linear-gradient(to left bottom, #252323, transparent);
+}
+
+.project_card img {
+    max-height: 25px;
+    margin: 5px 0px;
+}
+
+
