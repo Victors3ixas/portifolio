@@ -12,7 +12,7 @@ section .wave span {
     left: 50%;
     transform: translate(-50%, -75%);
     --animation: animate 5s linear infinite;
-    background: #000;
+    background: #fff;
 }
 
 @media screen and (max-width: 767px) {
