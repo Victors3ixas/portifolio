@@ -62,6 +62,9 @@ section #SECTION_rede-icons a:hover{
     padding: 0;
 }
 
+.skills-icons_sections img {
+    padding-bottom: 5px;
+}
 
 .project_card {
     opacity: 0.75;
