@@ -1,37 +1,41 @@
-.small_layout,
-#HEADER_social-icons {
-    display: none;
-}
-
 header {
-    padding: 15px 25px;
+    padding: 5px 25px;
 }
 
-section #SECTION_rede-icons {
-    right: 25px;
-}
-
-main aside {
-    padding: 30px 25px;
-}
-
-main aside:nth-child(2) div:nth-child(3) {
+.section_container {
+    min-height: 100vh;
+    padding: 125px 50px 50px 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
-main aside:nth-child(2) img {
+main section {
+    min-height: 100vh;
+}
+
+.section_img {
+    max-height: 50vh;
     max-width: 25vw;
 }
 
-
-.project-card_section {
+.scroll_btn {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    right: 5px;
 }
 
-.project_card {
-    width: 45vw;
-    height: 45vw;
+
+.about {
+    padding: 30px 50px;
+}
+
+.projects .card-group {
+    width: 200vw;
+}
+
+.projects .card {
+    max-width: 50vw;
 }

@@ -1,33 +1,39 @@
-.small_layout,
-#SECTION_rede-icons {
-    display: none;
-}
-
 header {
-    padding: 15px 50px;
+    padding: 5px 50px;
 }
 
 
-main aside {
-    padding: 30px 75px;
-}
 
-main aside:nth-child(2) div:nth-child(3) {
+.section_container {
+    min-height: 100vh;
+    padding: 175px 100px 100px 100px;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 
-main aside:nth-child(2) img {
+.section_img {
+    max-height: 50vh;
     max-width: 25vw;
 }
 
-.project-card_section {
+
+.scroll_btn {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    right: 0px;
 }
 
-.project_card {
-    width: 40vw;
-    height: 40vw;
+.about {
+    padding: 50px 100px;
+}
+
+.projects .card-group {
+    width: 200vw;
+}
+
+.projects .card {
+    width: 100vw;
 }

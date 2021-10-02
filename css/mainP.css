@@ -1,41 +1,55 @@
-.large_layout {
-    display: none;
-}
-
 header {
-    padding: 15px 5px;
+    padding: 5px 5px;
 }
 
-section #SECTION_rede-icons {
-    right: 5px;
-}
-
-
-main aside {
-    padding: 30px 5px;
-}
-
-main aside:nth-child(2) div:nth-child(3) {
+header .collapse .contai{
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+}
+
+header .collapse .footer div:nth-child(2) {
+    text-align: right;
+}
+
+.section_container {
+    min-height: 100vh;
+    padding: 80px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-main aside:nth-child(2) img {
-    max-width: 75vw;
+main section {
+    min-height: 100vh;
 }
 
-.project-card_section {
+.section_img {
+    margin: 25px;
+    max-height: 50vh;
+    max-width: 50vw;
+}
+
+.scroll_btn {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    right: 5px;
 }
 
-.project_card:nth-child(1) {
-    margin-bottom: 10px;
+.about {
+    padding: 5px 5px;
 }
 
-.project_card {
-    width: calc(100vw - 10px);
-    height: calc(100vw - 10px);
+.projects .card-group {
+    display: flex;
+    flex-direction: row;
+    width: 380vw;
+}
+
+.projects .card {
+    max-width: 95vw;
 }
