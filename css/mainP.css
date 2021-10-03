@@ -21,10 +21,6 @@ header .collapse .footer div:nth-child(2) {
     align-items: center;
 }
 
-main section {
-    min-height: 100vh;
-}
-
 .section_img {
     margin: 25px;
     max-height: 50vh;

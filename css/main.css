@@ -29,11 +29,16 @@ main section a:hover {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: auto;
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section_btn a {
+    position: absolute;
+    top: -40px;
 }
 
 .about_icon-img {
