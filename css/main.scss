@@ -117,7 +117,7 @@ section {
     background-size: cover;
     background-position: center;
     background-image: url('../svg/backdrop.svg');
-    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 4em;
     color: var(--bs-white);
 
     div {
@@ -137,17 +137,6 @@ section {
         justify-content: center;
         align-items: center;
     }
-}
-
-section::before {
-    content: "";
-    position: absolute;
-    bottom: 5vh;
-    left: 0;
-    height: 20%;
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
-    border-bottom-right-radius: 50px;
 }
 
 section ::selection {
