@@ -1,8 +1,0 @@
-.scroll_btn {
-    position: fixed;
-    pointer-events: none;
-    bottom: 5px;
-    z-index: 5000;
-    opacity: 0;
-transition: 0.5s;
-}
