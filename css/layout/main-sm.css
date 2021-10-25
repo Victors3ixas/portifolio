@@ -1,0 +1,183 @@
+header nav {
+  padding: 5px 10px;
+}
+
+header .content-collapse {
+  padding: 5px 15px;
+}
+
+section {
+  padding: 75px 50px 10px 50px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 50% auto 50px;
+      grid-template-rows: 50% auto 50px;
+      grid-template-areas: 'item-1 item-1' 'item-2 item-2' 'item-3 item-3';
+}
+
+section .content-section {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: item-2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+section .img-section {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: item-1;
+}
+
+aside .content {
+  padding: 45px 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto auto auto 75px;
+      grid-template-rows: auto auto auto 75px;
+      grid-template-areas: 'item-1' 'item-2' 'item-3' 'item-4';
+}
+
+aside .content .content-text {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: item-1;
+}
+
+aside .content .content-badges {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: item-2;
+}
+
+aside .content .content-img {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: item-3;
+  min-height: 50vw;
+}
+
+aside .content .content-btn {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: item-4;
+}
+
+aside .project {
+  padding: 0px 10px;
+}
+
+aside .project .container-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 95vw;
+      grid-template-columns: 95vw;
+  -ms-grid-rows: (95vw)[5];
+      grid-template-rows: repeat(5, 95vw);
+  grid-row-gap: 15px;
+      grid-template-areas: 'item-1'  'item-2' 'item-3'  'item-4' 'item-5';
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+aside .project .project-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: item-1;
+}
+
+aside .project .project-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: item-2;
+}
+
+aside .project .project-3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: item-3;
+}
+
+aside .project .project-4 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: item-4;
+}
+
+aside .project .project-5 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: item-5;
+}
+
+aside .footer {
+  padding: 5px;
+}
+
+aside .footer div {
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+aside .footer h2 {
+  text-align: center;
+}
+
+aside .footer div ul {
+  padding: 10px 15px;
+}
+
+aside .footer ul:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+aside .footer ul li {
+  list-style: none;
+}
+
+aside .footer div:nth-child(3) {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+/*# sourceMappingURL=main-sm.css.map */

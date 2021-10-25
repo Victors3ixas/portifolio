@@ -1,21 +1,20 @@
 header nav {
-  padding: 10px 75px;
+  padding: 10px 25px;
 }
 
 header .content-collapse {
-  padding: 30px 100px;
+  padding: 15px 75px;
 }
 
 section {
-  padding: 75px 100px 10px 100px;
+  padding: 75px 50px 10px 50px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 70% 30%;
       grid-template-columns: 70% 30%;
   -ms-grid-rows: auto 50px;
       grid-template-rows: auto 50px;
-      grid-template-areas: 'item-1 item-2'
- 'item-3 item-3';
+      grid-template-areas: 'item-1 item-2' 'item-3 item-3';
 }
 
 section .content-section {
@@ -44,16 +43,14 @@ section .img-section {
 }
 
 aside .content {
-  padding: 50px 100px;
+  padding: 50px 50px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 60% 40%;
-      grid-template-columns: 60% 40%;
+  -ms-grid-columns: 65% 35%;
+      grid-template-columns: 65% 35%;
   -ms-grid-rows: auto auto 50px;
       grid-template-rows: auto auto 50px;
-      grid-template-areas: 'item-1 item-1'
- 'item-2 item-3'
- 'item-4 item-4';
+      grid-template-areas: 'item-1 item-1' 'item-2 item-3' 'item-4 item-4';
 }
 
 aside .content .content-text {
@@ -81,20 +78,18 @@ aside .content .content-btn {
 }
 
 aside .project {
-  padding: 0px 100px;
+  padding: 0px 50px;
 }
 
 aside .project .container-cards {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (calc(47.5vw - 100px))[2];
-      grid-template-columns: repeat(2, calc(47.5vw - 100px));
-  -ms-grid-rows: (calc((47.5vw - 100px) * 0.75))[3];
-      grid-template-rows: repeat(3, calc((47.5vw - 100px) * 0.75));
+  -ms-grid-columns: (calc(47.5vw - 50px))[2];
+      grid-template-columns: repeat(2, calc(47.5vw - 50px));
+  -ms-grid-rows: (calc((47.5vw - 50px) * 0.75))[3];
+      grid-template-rows: repeat(3, calc((47.5vw - 50px) * 0.75));
   grid-row-gap: 30px;
-      grid-template-areas: 'item-1 item-2'
- 'item-3 item-4'
- 'item-5 item-6';
+      grid-template-areas: 'item-1 item-2' 'item-3 item-4' 'item-5 item-6';
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -131,20 +126,22 @@ aside .project .project-5 {
 }
 
 aside .footer {
-  padding: 50px;
+  padding: 25px;
 }
 
-aside .footer div {
-  padding: 50px;
+aside .footer .footer div {
+  padding: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-aside .footer div:nth-child(3) {
+aside .footer .footer div:nth-child(3) {
   padding: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,4 +150,4 @@ aside .footer div:nth-child(3) {
       -ms-flex-pack: center;
           justify-content: center;
 }
-/*# sourceMappingURL=main-lg.css.map */
+/*# sourceMappingURL=main-md.css.map */
