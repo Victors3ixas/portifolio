@@ -1,0 +1,58 @@
+p {
+  padding-bottom: 0.5rem;
+}
+
+strong,
+.strong {
+  font-weight: bolder;
+}
+
+.lead {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6, .display-7, .display-8, .display-9 {
+  font-weight: 300;
+}
+
+.display-1 {
+  font-size: 5rem;
+}
+
+.display-2 {
+  font-size: 4.5rem;
+}
+
+.display-3 {
+  font-size: 4rem;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+}
+
+.display-5 {
+  font-size: 3rem;
+}
+
+.display-6 {
+  font-size: 2.5rem;
+}
+
+.display-7 {
+  font-size: 2rem;
+}
+
+.display-8 {
+  font-size: 1.5rem;
+}
+
+.display-9 {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=typography.css.map */

@@ -9,252 +9,252 @@
     <title>Victor Seixas | Front-End e Archviz</title>
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" media="screen and (max-width: 767px)" href="css/layout/main-sm.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 991px)" href="css/layout/main-md.css">
-    <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/layout/main-lg.css">
-    <link rel="stylesheet" href="css/custom/btn.css">
-    <link rel="stylesheet" href="css/custom/badge.css">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-        </script>
+    <link rel="stylesheet" href="css/layout/components/btn.css">
+    <link rel="stylesheet" href="css/layout/content/typography.css">
+    <link rel="stylesheet" href="css/layout/utilities/spacing.css">
+    <script src="javascript/scroll-btn.js"></script>
 </head>
 
 <body>
-    <header>
-        <div class="collapse content-collapse" id="header-about">
-            <h2>
-                Sobre
-                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
-                    class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" />
-                </svg>
-            </h2>
-            <p class="text-muted">Sou um estudando de 17 anos do segundo ano do ensino médio no estado do Espiríto
-                Santo. Além dos estudos letivos, estudo programação e modelação 3D no setor de vizualização
-                arquitetônica.</p>
-            <p class="text-muted">Já me aventurei bastante produzindo bots para Discord utilizando , principalmente,
-                Javascripp. No entanto, estou preferindo porproduzir e estudar sites utilando HTML + CSS5, além do
-                próprio js, é claro.</p>
+    <div class="scroll-btn" id="scroll-btn">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+                <path
+                    d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+            </svg>
+        </a>
+    </div>
 
-            <ol>
-                <li><a href="https://www.facebook.com/profile.php?id=100017209957772" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                            class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path
-                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                        </svg>
-                    </a></li>
-                <li><a href="https://www.instagram.com/victors3ixas/" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                            class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path
-                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                        </svg>
-                    </a></li>
-                <li><a href="https://github.com/Victors3ixas" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                            class="bi bi-github" viewBox="0 0 16 16">
-                            <path
-                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-                        </svg>
-                    </a></li>
-            </ol>
-            <hr>
-        </div>
+    <header>
         <nav>
-            <span class="">Portifólio</span>
-            <button class="btn btn-outline-purple" data-bs-toggle="collapse" href="#header-about" role="button"
-                aria-expanded="false" aria-controls="header-about">
-                Sobre
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-                    class="bi bi-list-nested" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z" />
-                </svg>
-            </button>
+            <a href="" class="logo strong">PORTIFÓLIO</a>
         </nav>
     </header>
-
     <main>
         <section>
             <div class="content-section">
-                <p class="h1">Design Front-End, Modelador 3D, e criador de Bots para Discord.</p>
-                <a href="#explore-btn" class="btn btn-outline-light btn-lg">Explore</a>
+                <span class="display-7">
+                    Design Front-End, Modelador 3D, e criador de Bots para Discord.
+                </span>
+                <a href="#aside" class="btn btn-outline-light btn-lg px-3 mt-1">Explorar</a>
             </div>
             <div class="img-section"></div>
             <div class="btn-section">
-                <a href="#explore-btn" class="btn-neltral btn-neltral-light">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                <a href="#aside" class="btn-bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
                         class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
-                            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z" />
+                            d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z">
+                        </path>
                     </svg>
                 </a>
             </div>
-            <div class="scroll-btn" id="scroll-btn">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
-                        <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
-                      </svg>
-                </a>
-            </div>
         </section>
-
-        <aside id="explore-btn">
-            <div class="content" id="content"> 
-                <div class="content-text">
-                    <h1>Olá, me chamo Victor!</h1>
-                    <p>
-                        Seja muito bem vindo ao meu portifólio, sou um estudante de 17 anos do segundo ano do ensino
-                        médio
-                        no
-                        estado do Espiríto Santo. Além dos estudos letivos, aprendo, por hobbie, programação desde deste
-                        2019 e
-                        modelação no setor de ArchViz e vizualização arquitetônica desde de 2020, dentre outras coisas.
-                    </p>
-                    <p>
-                        As linguagens nas quais mais tenho proeficência são Javascript, com a qual trabalhei bastante
-                        fazendo
-                        bots para Discord e FrontEnd, além de HTML + CSS que estou me permitindo
-                        aprender
-                        no
-                        momento.
-                    </p>
-                    <p>
+        <aside id="aside" class="m-5">
+            <div class="content-section">
+                <span class="display-6">Olá, me chamo Victor!</span>
+                <p>
+                    Seja muito bem vindo ao meu portifólio, sou um estudante de 17 anos do segundo ano do ensino médio
+                    no estado do Espiríto Santo. Além dos estudos letivos, aprendo, por hobbie, programação desde deste
+                    2019 e modelação no setor de ArchViz e vizualização arquitetônica desde de 2020, dentre outras
+                    coisas.
+                </p>
+                <p>
+                    As linguagens nas quais mais tenho proeficência são Javascript, com a qual trabalhei bastante
+                    fazendo bots para Discord e FrontEnd, além de HTML + CSS que estou me permitindo aprender no
+                    momento.
+                </p>
+            </div>
+            <div id="skill" class="skill-section">
+                <ul>
+                    <ol>
+                        <span class="display-8">Habilidades</span>
+                        <dl>
+                            <li><img src="images/badges/html-badge.svg"></li>
+                            <li><img src="images/badges/css-badge.svg"></li>
+                            <li><img src="images/badges/javascript-bagde.svg"></li>
+                            <li><img src="images/badges/bootstrap-badge.svg"></li>
+                            <li><img src="images/badges/python-badge.svg"></li>
+                        </dl>
+                    </ol>
+                    <ol>
+                        <span class="display-8">Plataformas</span>
+                        <dl>
+                            <li><img src="images/badges/photoshop-badge.svg"></li>
+                            <li><img src="images/badges/blender-badge.svg"></li>
+                            <li><img src="images/badges/powerbi-badge.svg"></li>
+                        </dl>
+                    </ol>
+                    <ol>
+                        <span class="display-8">Redes e Contatos</span>
+                        <dl>
+                            <li>
+                                <a href="https://www.facebook.com/profile.php?id=100017209957772" target="_blank">
+                                    <img src="images/badges/facebook-badge.svg">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/victors3ixas/">
+                                    <img src="images/badges/instagram-badge.svg ">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/VictorSeixas10" target="_blank">
+                                    <img src="images/badges/twitter-badge.svg"></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Victors3ixas" target="_blank">
+                                    <img src="images/badges/github-badge.svg"></a>
+                            </li>
+                            <li>
+                                <a href="https://api.whatsapp.com/send/?phone=5527988834585&amp;text&amp;app_absent=0"
+                                    target="_blank">
+                                    <img src="images/badges/whatsapp-badge.svg"></a>
+                            </li>
+                        </dl>
+                    </ol>
+                </ul>
+            </div>
+            <div class="img-section"></div>
+            <div class="btn-section">
+                <a href="#projects" class="btn btn-primary px-3">Projetos</a>
+            </div>
+            <div id="projects" class="project-section">
+                <div class="content-section">
+                    <p class="display-7">Meus Projetos</p>
+                    <p>Veja abaixo alguns dos meus projetos pessoais; Você poderá perceber que não me limitei à expor
+                        apenas desenvolvimentos relácionados à Front-End ou Web Desenvolvimento, mas também o 3D, que
+                        representa também grande parte da minha diversão no computador também.</p>
+                </div>
+                <div class="card-section m-2">
+                    <div class="card">
+                        <div class="description">
+                            <span class="display-8">Exemplo de portifólio</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="description">
+                            <span class="display-8">Esperimento de Blog</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="description">
+                            <span class="display-8">Atlas Discord Server</span>
+                            <a href="hhtps://atlas-discord.github.io/web" class="btn btn-primary btn-sm px2"
+                                target="blank">Ver mais..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="description-section">
+                    <p class="text-muted">
                         Estou criando o habito de postar alguns script's no GitHub, e pretendo postar mais lá.
-                        inclusive,
-                        caso
-                        tenha interesse, veja o repósitório com o código completo deste mesmo portifólio no meu perfil
+                        Inclusive, caso tenham interesse, vejam o repósitório com o código completo deste mesmo website
+                        no meu perfil.
                     </p>
-                    <a href="https://github.com/Victors3ixas" class="btn btn-outline-purple" target="blank">
+                    <a href="https://github.com/Victors3ixas" class="btn btn-outline-success" target="blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
-                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                            </path>
                         </svg>
                         GitHub
                     </a>
                 </div>
-                <div class="content-badges" id="habilidades">
-                    <li>
-                        <h3>Habilidades</h3>
-                        <img src="svg/html-badge.svg" class="badge-img">
-                        <img src="svg/css-badge.svg" class="badge-img">
-                        <img src="svg/javascript-bagde.svg" class="badge-img">
-                        <img src="svg/bootstrap-badge.svg" class="badge-img">
-                        <img src="svg/python-badge.svg" class="badge-img">
-                    </li>
-                    <li>
-                        <h3>Plataformas</h3>
-                        <img src="svg/photoshop-badge.svg" class="badge-img">
-                        <img src="svg/blender-badge.svg" class="badge-img">
-                        <img src="svg/powerbi-badge.svg" class="badge-img">
-                    </li>
-                    <li>
-                        <h3>Redes Sociais</h3>
-                        <a href="https://www.facebook.com/profile.php?id=100017209957772" target="_blank">
-                            <img src="svg/facebook-badge.svg" class="badge-img"></a>
-                        <a href="https://www.instagram.com/victors3ixas/" target="_blank">
-                            <img src="svg/instagram-badge.svg" class="badge-img"></a>
-                        <a href="https://twitter.com/VictorSeixas10" target="_blank">
-                            <img src="svg/twitter-badge.svg" class="badge-img"></a>
-                        <a href="https://github.com/Victors3ixas" target="_blank">
-                            <img src="svg/github-badge.svg" class="badge-img"></a>
-                        <a href="https://api.whatsapp.com/send/?phone=5527988834585&text&app_absent=0" target="_blank">
-                            <img src="svg/whatsapp-badge.svg" class="badge-img"></a>
-                    </li>
-                </div>
-                <div class="content-img"></div>
-                <div class="content-btn">
-                    <a href="#projects" class="btn btn-purple">
-                        Projetos
-                    </a>
-                </div>
             </div>
-
-            <div class="project" id="projects">
-                <div class="content-project">
-                    <h1>Meus Projetos</h1>
-                    <p class="text-muted">Veja abaixo alguns projetos meus, poderá perceber que não me limitei à expor
-                        apenas desenvolvimentos relácionados à Front-End ou Web Desenvolvimento, mas também ao 3D, que
-                        representa grande parte da minha diversão no computador também.</p>
-                </div>
-
-                <div class="container-cards">
-                    <div class="project-card project-1">
-                        <div class="description-card">
-                            <h2>Archviz</h2>
-                            <a href="https://www.artstation.com/artwork/qAzn2a" class="btn btn-purple btn-sm" target="black">Veja no meu ArtStation</a>
-                        </div>
-                    </div>
-                    <div class="project-card project-2">
-                        <div class="description-card">
-                            <h2>Archviz</h2>
-                        </div>
-                    </div>
-                    <div class="project-card project-3">
-                        <div class="description-card">
-                            <h2>Archviz</h2>
-                        </div>
-                    </div>
-                    <div class="project-card project-4">
-                        <div class="description-card">
-                            <h2>Archviz</h2>
-                            <a href="https://www.artstation.com/artwork/XBX4Qw" class="btn btn-purple btn-sm" target="blank">Veja no meu ArtStation</a>
-                        </div>
-                    </div>
-                    <div class="project-card project-5">
-                        <div class="description-card">
-                            <h2>Calculadora de IMC</h2>
-                            <a href="" class="btn btn-purple btn-sm" disabled>Link Em Breve</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="lema text-center p-5">
-                <h1>Precisa de Ajuda?</h1>
+            <div class="contact-section mt-3">
+                <span class="display-7">PRECISA DE AJUDA?</span>
                 <p class="text-muted">Vamos trabalhar juntos! ;)</p>
-                <a href="#footer" class="btn btn-purple">Contate-me</a>
+                <a href="#footer" class="btn btn-primary">Contate-me</a>
             </div>
-
-            <div class="footer" id="footer">
-                <hr>
-                <div>
-                    <h2>Victors3ixas</h2>
-                    <ul>
-                        <h5>ultimos projetos</h5>
-                        <li><a href="https://www.artstation.com/victorseixas" target="_blank">ArchViz Projects</a></li>
-                    </ul>
-                    <ul>
-                        <h5>site</h5>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#content">Sobre</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                        <li><a href="#projects">Projetos</a></li>
-                    </ul>
-                    <ul>
-                        <h5>redes</h5>
-                        <li><a href="https://www.facebook.com/profile.php?id=100017209957772"
-                                target="_blank">Facebook</a>
-                        </li>
-                        <li><a href="https://www.instagram.com/victors3ixas/" target="_blank">Instagram</a></li>
-                        <li><a href="https://github.com/Victors3ixas" target="_blank">GithHub</a></li>
-                        <li><a href="https://www.artstation.com/victorseixas" target="_blank">ArtStation</a></li>
-                    </ul>
-                </div>
-
-                <div>
-                    <h6>©Victors3ixas - 2021</h6>
-                </div>
-            </div>
-        </aside>
         </aside>
     </main>
-
-    <script src="js/scroll-btn.js"></script>
+    <footer class="mt-3" id="footer">
+        <div class="logo-section">
+            <span class="logo">VICTOR</span>
+            <ul>
+                <ol>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100017209957772" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/victors3ixas/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://api.whatsapp.com/send/?phone=5527988834585&text&app_absent=0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                <path
+                                    d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Victors3ixas" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-github" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.artstation.com/victorseixas">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32"
+                                fill="currentColor">
+                                <path
+                                    d="M0 23.63l2.703 4.672c0.552 1.094 1.667 1.781 2.885 1.781h17.943l-3.724-6.453zM32 23.661c0-0.641-0.193-1.245-0.516-1.75l-10.516-18.276c-0.557-1.057-1.656-1.719-2.854-1.719h-5.557l16.24 28.135 2.563-4.432c0.5-0.849 0.641-1.224 0.641-1.958zM17.161 19.047l-7.255-12.568-7.26 12.568z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ol>
+            </ul>
+        </div>
+        <div class="web-section">
+            <ul>
+                <span class="display-8">Site</span>
+                <dl>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#aside">Sobre</a></li>
+                    <li><a href="#skill">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                </dl>
+            </ul>
+        </div>
+        <div class="social-section">
+            <ul>
+                <span class="display-8">redes</span>
+                <dl>
+                    <li><a href="https://www.facebook.com/profile.php?id=100017209957772" target="_blank">Facebook</a>
+                    </li>
+                    <li><a href="https://www.instagram.com/victors3ixas/" target="_blank">Instagram</a></li>
+                    <li><a href="https://github.com/Victors3ixas" target="_blank">GithHub</a></li>
+                    <li><a href="https://www.artstation.com/victorseixas" target="_blank">ArtStation</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=5527988834585&text&app_absent=0"
+                            target="_blank">whatsapp</a></li>
+                </dl>
+            </ul>
+        </div>
+        <div class="copyright-section">
+            <span>©Victors3ixas - 2021</span>
+        </div>
+    </footer>
 </body>
 
 </html>
