@@ -1,0 +1,139 @@
+$color-light: var(--bs-light);
+$color-dark: var(--bs-dark);
+
+.bg {
+    &-blue {
+        &-100 {background-color: var(--bs-blue-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-blue-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-blue-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-blue-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-blue-500) !important; color: $color-light;}
+        &-600 {background-color: var(--bs-blue-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-blue-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-blue-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-blue-900) !important; color: $color-light;}
+    }
+
+    &-indigo {
+        &-100 {background-color: var(--bs-indigo-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-indigo-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-indigo-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-indigo-400) !important; color: $color-light;}
+        &-500 {background-color: var(--bs-indigo-500) !important; color: $color-light;}
+        &-600 {background-color: var(--bs-indigo-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-indigo-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-indigo-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-indigo-900) !important; color: $color-light;}
+    }
+
+    &-purple {
+        &-100 {background-color: var(--bs-purple-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-purple-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-purple-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-purple-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-purple-500) !important; color: $color-light;}
+        &-600 {background-color: var(--bs-purple-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-purple-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-purple-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-purple-900) !important; color: $color-light;}
+    }
+
+    &-pink {
+        &-100 {background-color: var(--bs-pink-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-pink-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-pink-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-pink-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-pink-500) !important; color: $color-light;}
+        &-600 {background-color: var(--bs-pink-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-pink-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-pink-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-pink-900) !important; color: $color-light;}
+    }
+
+    &-red {
+        &-100 {background-color: var(--bs-red-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-red-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-red-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-red-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-red-500) !important; color: $color-light;}
+        &-600 {background-color: var(--bs-red-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-red-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-red-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-red-900) !important; color: $color-light;}
+    }
+
+    &-orange {
+        &-100 {background-color: var(--bs-orange-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-orange-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-orange-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-orange-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-orange-500) !important; color: $color-dark;}
+        &-600 {background-color: var(--bs-orange-600) !important; color: $color-dark;}
+        &-700 {background-color: var(--bs-orange-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-orange-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-orange-900) !important; color: $color-light;}
+    }
+
+    &-yellow{
+        &-100 {background-color: var(--bs-yellow-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-yellow-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-yellow-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-yellow-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-yellow-500) !important; color: $color-dark;}
+        &-600 {background-color: var(--bs-yellow-600) !important; color: $color-dark;}
+        &-700 {background-color: var(--bs-yellow-700) !important; color: $color-dark;}
+        &-800 {background-color: var(--bs-yellow-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-yellow-900) !important; color: $color-light;}
+    }
+
+    &-green {
+        &-100 {background-color: var(--bs-green-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-green-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-green-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-green-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-green-500) !important; color: $color-light;}
+        &-600 {background-color: var(--bs-green-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-green-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-green-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-green-900) !important; color: $color-light;}
+    }
+
+    &-teal {
+        &-100 {background-color: var(--bs-teal-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-teal-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-teal-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-teal-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-teal-500) !important; color: $color-dark;}
+        &-600 {background-color: var(--bs-teal-600) !important; color: $color-dark;}
+        &-700 {background-color: var(--bs-teal-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-teal-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-teal-900) !important; color: $color-light;}
+    }
+
+    &-cyan {
+        &-100 {background-color: var(--bs-cyan-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-cyan-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-cyan-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-cyan-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-cyan-500) !important; color: $color-dark;}
+        &-600 {background-color: var(--bs-cyan-600) !important; color: $color-dark;}
+        &-700 {background-color: var(--bs-cyan-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-cyan-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-cyan-900) !important; color: $color-light;}
+    }
+
+    &-gray {
+        &-100 {background-color: var(--bs-gray-100) !important; color: $color-dark;}
+        &-200 {background-color: var(--bs-gray-200) !important; color: $color-dark;}
+        &-300 {background-color: var(--bs-gray-300) !important; color: $color-dark;}
+        &-400 {background-color: var(--bs-gray-400) !important; color: $color-dark;}
+        &-500 {background-color: var(--bs-gray-500) !important; color: $color-dark;}
+        &-600 {background-color: var(--bs-gray-600) !important; color: $color-light;}
+        &-700 {background-color: var(--bs-gray-700) !important; color: $color-light;}
+        &-800 {background-color: var(--bs-gray-800) !important; color: $color-light;}
+        &-900 {background-color: var(--bs-gray-900) !important; color: $color-light;}
+    }
+
+    &-black {background-color: var(--bs-black) !important; color: $color-light;}
+    &-white {background-color: var(--bs-white) !important; color: $color-dark;}
+}

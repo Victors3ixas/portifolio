@@ -1,18 +1,32 @@
+$dark-color: var(--bs-black);
+$light-color: var(--bs-white);
+
+$font-weight: 400;
+$line-height: 1.5;
+$padding: 0.375rem 0.75rem;
+$padding-lg: 0.5rem 1rem;
+$padding-sm: 0.25rem 0.5rem;
+$font-size: 1rem;
+$font-size-lg: 1.5rem;
+$font-size-sm: 0.875rem;
+$box-shadow: 0 0 0 0.25rem;
+
+$blue-shadow: var(--bs-blue-200);
+$blue-primary-color: var(--bs-blue-500);
+$blue-secondary-color: var(--bs-blue-600);
+
 .btn {
     display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
+    font-weight: $font-weight;
+    line-height: $line-height;
     color: #212529;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: 0.375rem 0.75rem;
+    padding: $padding;
     font-size: 1rem;
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
@@ -20,47 +34,47 @@
 
     &:focus {
         outline: 0;
-        box-shadow: 0 0 0 0.25rem #0d6efd50;
+        box-shadow: 0 0 0 0.25rem $blue-shadow;
     }
 
     &:hover {
-        color: #212529;
+        color: $dark-color;
     }
 
     &-lg {
-        padding: 0.5rem 1rem;
-        font-size: 1.25rem;
+        padding: $padding-lg;
+        font-size: $font-size-lg;
         border-radius: 0.3rem;
     }
 
     &-sm {
-        padding: 0.25rem 0.5rem;
-        font-size: 0.875rem;
+        padding: $padding-sm;
+        font-size: $font-size-sm;
         border-radius: 0.2rem;
     }
 
-    &-primary {
-        color: #fff;
-        background-color: #0d6efd;
-        border-color: #0d6efd;
+    &-blue {
+        color:                  $light-color;
+        background-color:       $blue-primary-color;
+        border-color:           $blue-primary-color;
 
         &:active {
-            color: #fff;
-            background-color: #0a58ca;
-            border-color: #0a53be;
+            color:              $light-color;
+            background-color:   $blue-secondary-color;
+            border-color:       $blue-secondary-color;
         }
 
         &:focus {
-            color: #fff;
-            background-color: #0b5ed7;
-            border-color: #0a58ca;
-            box-shadow: 0 0 0 0.25rem #0d6efd50;
+            color: $light-color;
+            background-color:   $blue-secondary-color;
+            border-color:       $blue-secondary-color;
+            box-shadow:         $box-shadow $blue-shadow;
         }
 
         &:hover {
-            color: #fff;
-            background-color: #0b5ed7;
-            border-color: #0a58ca;
+            color: $light-color;
+            background-color: $blue-secondary-color;
+            border-color: $blue-secondary-color;
         }
     }
 
@@ -111,10 +125,10 @@
             }
         }
 
-        &-success {
+        &-green {
             color: #198754;
             border-color: #198754;
-            
+
             &:active {
                 color: #fff;
                 background-color: #198754;

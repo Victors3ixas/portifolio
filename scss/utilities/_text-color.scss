@@ -1,0 +1,19 @@
+.text {
+    &-primary   {color: var(--bs-primary)   !important;}
+
+    &-secondary {color: var(--bs-secondary) !important;}
+
+    &-success   {color: var(--bs-success)   !important;}
+
+    &-danger    {color: var(--bs-danger)    !important;}
+    
+    &-warning   {color: var(--bs-warning)   !important;}
+    
+    &-info      {color: var(--bs-info)      !important;}
+
+    &-light     {color: var(--bs-light)     !important;}
+
+    &-dark      {color: var(--bs-dark)      !important;}
+
+    &-muted     {color: var(--bs-gray-600)  !important;}
+}
