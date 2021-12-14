@@ -1866,7 +1866,6 @@ body .scroll-btn a:hover {
             align-items: flex-start;
   }
   main aside .content {
-    padding: 0 25px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
@@ -1933,7 +1932,6 @@ body .scroll-btn a:hover {
             align-items: flex-start;
   }
   main aside .content {
-    padding: 0 75px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
