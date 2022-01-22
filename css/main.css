@@ -113,16 +113,8 @@ header ::selection {
   background-color: transparent;
 }
 
-@media screen and (max-width: 767px) {
-  main {
-    --clip_path: 1.5rem;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  main {
-    --clip_path: 3rem;
-  }
+main {
+  --clip_path: 3rem;
 }
 
 main section {
