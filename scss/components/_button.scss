@@ -15,6 +15,10 @@ $blue-shadow: var(--bs-blue-200);
 $blue-primary-color: var(--bs-blue-500);
 $blue-secondary-color: var(--bs-blue-600);
 
+$green-shadow: var(--bs-green-200);
+$green-primary-color: var(--bs-green-500);
+$green-secondary-color: var(--bs-green-600);
+
 .btn {
     display: inline-block;
     font-weight: $font-weight;
@@ -103,6 +107,31 @@ $blue-secondary-color: var(--bs-blue-600);
         }
     }
 
+    &-success {
+        color:                  $light-color;
+        background-color:       $green-primary-color;
+        border-color:           $green-primary-color;
+
+        &:active {
+            color:              $light-color;
+            background-color:   $green-secondary-color;
+            border-color:       $green-secondary-color;
+        }
+
+        &:focus {
+            color: $light-color;
+            background-color:   $green-secondary-color;
+            border-color:       $green-secondary-color;
+            box-shadow:         $box-shadow $green-shadow;
+        }
+
+        &:hover {
+            color: $light-color;
+            background-color: $green-secondary-color;
+            border-color: $green-secondary-color;
+        }
+    }
+
     &-outline {
         &-primary {
             color: #0d6efd;
@@ -125,7 +154,7 @@ $blue-secondary-color: var(--bs-blue-600);
             }
         }
 
-        &-green {
+        &-success {
             color: #198754;
             border-color: #198754;
 
